@@ -3,7 +3,7 @@
 **Interactive bubble visualization of Solana tokens with rug-pull risk highlighting**  
 Inspired by the beautiful [CryptoBubbles.net](https://cryptobubbles.net/) — but focused exclusively on **Solana ecosystem tokens** and designed to spotlight potential **rug pulls** and high-risk patterns.
 
-Live demo: https://YOUR-USERNAME.github.io/rug-pulls-bubble/  
+Live demo:(https://rug-pulls-bubble-v2.netlify.app/)  
 *(Replace YOUR-USERNAME after deploying to GitHub Pages)*
 
 ## Screenshot
