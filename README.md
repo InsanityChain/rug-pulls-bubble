@@ -4,7 +4,7 @@
 [![Deployed with GitHub Pages](https://img.shields.io/badge/Deploy-GitHub_Pages-2ea44f)](https://insanitychain.github.io/rug-pulls-bubble/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-![Demo](https://github.com/InsanityChain/rug-pulls-bubble/screenshot.PNG) <!-- ADD REAL SCREENSHOT LATER -->
+![Demo](https://github.com/InsanityChain/rug-pulls-bubble/tree/main/screenshot.PNG) <!-- ADD REAL SCREENSHOT LATER -->
 
 ## 🔒 Critical Disclaimer
 - **Rug detection is imperfect** - false results happen
