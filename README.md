@@ -13,7 +13,7 @@
 - Data sourced from DexScreener (no affiliation)
 
 ## 🌐 Live Demo
-https://insanitychain.github.io/rug-pulls-bubble/
+https://rug-pulls-bubble-v2.netlify.app/
 
 ## 🚀 Features
 - 🔴🟢 Bubbles colored by rug-risk score (0-100)
