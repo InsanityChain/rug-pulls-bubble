@@ -49,5 +49,5 @@ See [SECURITY.md](./SECURITY.md) for vulnerability reporting.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/rug-pulls-bubble.git
+   git clone https://github.com/nsanityChain/rug-pulls-bubble.git
    cd rug-pulls-bubble
