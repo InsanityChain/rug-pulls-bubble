@@ -1,49 +1,57 @@
-# Rug Pulls Bubble
+# 🫧 Rug Pulls Bubble
+> Visualize Solana token rug-pull risks with interactive bubbles. **Educational tool only - NOT financial advice.**
 
-**Interactive bubble visualization of Solana tokens with rug-pull risk highlighting**  
-Inspired by the beautiful [CryptoBubbles.net](https://cryptobubbles.net/) — but focused exclusively on **Solana ecosystem tokens** and designed to spotlight potential **rug pulls** and high-risk patterns.
+[![Deployed with GitHub Pages](https://img.shields.io/badge/Deploy-GitHub_Pages-2ea44f)](https://insanitychain.github.io/rug-pulls-bubble/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Live demo:(https://rug-pulls-bubble-v2.netlify.app/)  
-*(Replace YOUR-USERNAME after deploying to GitHub Pages)*
+![Demo](https://rug-pulls-bubble-v2.netlify.app/) <!-- ADD REAL SCREENSHOT LATER -->
 
-## Screenshot
+## 🔒 Critical Disclaimer
+- **Rug detection is imperfect** - false results happen
+- **Never risk funds** based on this tool
+- Public RPCs are slow/unreliable - use Helius free tier for better experience
+- Data sourced from DexScreener (no affiliation)
 
-*([Rug Pull Bubble web.PNG](https://github.com/InsanityChain/rug-pulls-bubble/blob/main/Rug%20Pull%20Bubble%20web.PNG))*
+## 🌐 Live Demo
+https://insanitychain.github.io/rug-pulls-bubble/
 
-![Desktop view example](https://rug-pulls-bubble-v2.netlify.app/)
-![Mobile view example](https://rug-pulls-bubble-v2.netlify.app/)
+## 🚀 Features
+- 🔴🟢 Bubbles colored by rug-risk score (0-100)
+- 📱 Fully responsive (mobile/desktop)
+- 🔍 Zoom/pan with mouse/touch
+- 🎚️ Filter by risk threshold
+- 💡 Hover tooltips with token metrics
+- ⚡ Zero dependencies beyond CDN-loaded D3
 
-## Features
+## 🗺️ Roadmap
+| Priority | Feature |
+|----------|---------|
+| ✅ | Core bubble visualization |
+| ✅ | Rug risk scoring (solana-rugchecker) |
+| ✅ | Zoom/pan + risk filtering |
+| 🟡 | Helius RPC integration guide |
+| 🟡 | "High-risk only" toggle |
+| 🔴 | Birdeye API integration |
+| 🔴 | Chrome extension version |
 
-- **Bubble chart visualization** — bubbles sized by market cap / FDV, colored by rug risk (green = low risk → red = high risk)
-- **Real-time-ish data** from free DexScreener API (trending Raydium / Pump.fun / Jupiter pairs on Solana)
-- **Rug-pull risk scoring** using the open-source [@degenfrends/solana-rugchecker](https://github.com/degenfrends/solana-rugchecker) library
-  - Checks: metadata mutability, top holder concentration, liquidity lock status, freeze/mint authority, etc.
-- Fully **responsive** design — works on desktop, tablet, mobile
-- Interactive: hover for details (price, 24h change, liquidity, risk score, etc.)
-- Force-directed bubbles for organic, playful movement (like CryptoBubbles)
-- **100% client-side** — no backend, no API keys needed (uses public Solana RPC + DexScreener)
+## 🛠️ Deploy Your Own
+1. Fork this repo
+2. Go to **Settings → Pages** → Select `main` branch, `/ (root)`
+3. Wait 2 minutes → Visit `https://<your-username>.github.io/rug-pulls-bubble/`
+4. *(Optional)* Add Helius RPC key in `app.js` for faster checks
 
-## Important Warnings & Disclaimers
+## 🤝 Contributing
+PRs welcome! Focus areas:
+- Mobile performance optimizations
+- Better risk visualization (icons, gradients)
+- Accessibility improvements
+- Additional data sources (Birdeye, etc.)
 
-**This is NOT financial advice. Use at your own risk.**
+⚠️ **All contributions must include updated disclaimers**
 
-- Rug detection is **heuristic only** — it can produce **false positives** and **false negatives**.
-- Scores are **not guarantees** — many rugs bypass common checks; always **DYOR**.
-- Public RPC endpoints can be slow or rate-limited → risk checks may timeout or be approximate.
-- Crypto is highly speculative; rug pulls, honeypots, and scams are common on Solana.
-- Never send funds or connect wallets based solely on this tool.
-
-See [SECURITY.md](./SECURITY.md) for vulnerability reporting.
-
-## Tech Stack
-
-- **Frontend**: Vanilla JavaScript + D3.js v7 (force simulation + packing)
-- **Solana interaction**: @solana/web3.js
-- **Rug checking**: @degenfrends/solana-rugchecker
-- **Data**: DexScreener public API (no key required)
-- **Deployment**: Static site → GitHub Pages
-- No build tools / frameworks — keep it lightweight & easy to fork
+## 📜 License
+MIT License - See [LICENSE](LICENSE)  
+*Includes critical disclaimers required for crypto tools*
 
 ## Quick Start (Local Development)
 
