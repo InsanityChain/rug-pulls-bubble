@@ -10,8 +10,8 @@ Live demo: https://YOUR-USERNAME.github.io/rug-pulls-bubble/
 
 *(Add screenshots here later – e.g. desktop view, mobile view, zoomed on red/high-risk bubbles)*
 
-![Desktop view example](https://via.placeholder.com/1200x800/121212/ffffff?text=Rug+Pulls+Bubble+Desktop+View)
-![Mobile view example](https://via.placeholder.com/400x800/121212/ffffff?text=Mobile+View)
+![Desktop view example](https://rug-pulls-bubble-v2.netlify.app/)
+![Mobile view example](https://rug-pulls-bubble-v2.netlify.app/)
 
 ## Features
 
