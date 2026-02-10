@@ -1,0 +1,8 @@
+{
+    "manifest_version": 3,
+    "name": "Rug Pulls Bubble",
+    "version": "1.0",
+    "description": "Visualize Solana rug pull risks",
+    "action": { "default_popup": "index.html" },
+    "permissions": ["storage"]
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@degenfrends/solana-rugchecker": "^0.0.16",
+    "@solana/web3.js": "^1.98.4",
+    "d3": "^7.9.0"
+  }
+}
