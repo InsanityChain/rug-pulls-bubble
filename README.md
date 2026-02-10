@@ -8,7 +8,7 @@ Live demo:(https://rug-pulls-bubble-v2.netlify.app/)
 
 ## Screenshot
 
-*(Rug Pull Bubble web.PNG)*
+*([Rug Pull Bubble web.PNG](https://github.com/InsanityChain/rug-pulls-bubble/blob/main/Rug%20Pull%20Bubble%20web.PNG))*
 
 ![Desktop view example](https://rug-pulls-bubble-v2.netlify.app/)
 ![Mobile view example](https://rug-pulls-bubble-v2.netlify.app/)
