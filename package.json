@@ -3,5 +3,10 @@
     "@degenfrends/solana-rugchecker": "^0.0.16",
     "@solana/web3.js": "^1.98.4",
     "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "webpack": "^5.105.1",
+    "webpack-cli": "^6.0.1"
   }
 }
